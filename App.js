@@ -1,21 +1,28 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, LogBox } from 'react-native';
+import Route from './routes';
+import { useFonts } from "@use-expo/font";
+
+const customFonts = {
+	SegoeUI: require("./src/assets/fonts/Segoe-UI-Bold.ttf"),
+};
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+
+	LogBox.ignoreLogs(['Setting a timer']);
+	const [isLoaded] = useFonts(customFonts);
+
+    if (!isLoaded) {
+        return <Text>Loading</Text>;
+    }
+
+	return (
+		<Route/>
+	);
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+	container: {
+		
+	},
 });

@@ -14,6 +14,10 @@
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
 		96905EF65AED1B983A6B3ABC /* libPods-reactnativefirebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-reactnativefirebase.a */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
+		556D4D2841984264BAC23781 /* Segoe-UI-Bold-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CA604C853D741EEA9702094 /* Segoe-UI-Bold-Italic.ttf */; };
+		B45DCB992D8E44698EEFC6C6 /* Segoe-UI-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF1E89F2065F4973BC6F2CF1 /* Segoe-UI-Bold.ttf */; };
+		F1CA9F79510D404794A92D1F /* Segoe-UI-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64C7EF4B526D4F3AAE967A24 /* Segoe-UI-Italic.ttf */; };
+		71F51511FA1B4B2E9701CB7F /* Segoe-UI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E68D3F5691445D6909B13E5 /* Segoe-UI.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		3CA604C853D741EEA9702094 /* Segoe-UI-Bold-Italic.ttf */ = {isa = PBXFileReference; name = "Segoe-UI-Bold-Italic.ttf"; path = "../src/assets/fonts/Segoe-UI-Bold-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AF1E89F2065F4973BC6F2CF1 /* Segoe-UI-Bold.ttf */ = {isa = PBXFileReference; name = "Segoe-UI-Bold.ttf"; path = "../src/assets/fonts/Segoe-UI-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		64C7EF4B526D4F3AAE967A24 /* Segoe-UI-Italic.ttf */ = {isa = PBXFileReference; name = "Segoe-UI-Italic.ttf"; path = "../src/assets/fonts/Segoe-UI-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6E68D3F5691445D6909B13E5 /* Segoe-UI.ttf */ = {isa = PBXFileReference; name = "Segoe-UI.ttf"; path = "../src/assets/fonts/Segoe-UI.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +95,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				D65327D7A22EEC0BE12398D9 /* Pods */,
+				F16F4C97FC664020B0172DAD /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -118,6 +127,18 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		F16F4C97FC664020B0172DAD /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				3CA604C853D741EEA9702094 /* Segoe-UI-Bold-Italic.ttf */,
+				AF1E89F2065F4973BC6F2CF1 /* Segoe-UI-Bold.ttf */,
+				64C7EF4B526D4F3AAE967A24 /* Segoe-UI-Italic.ttf */,
+				6E68D3F5691445D6909B13E5 /* Segoe-UI.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -183,6 +204,10 @@
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
+				556D4D2841984264BAC23781 /* Segoe-UI-Bold-Italic.ttf in Resources */,
+				B45DCB992D8E44698EEFC6C6 /* Segoe-UI-Bold.ttf in Resources */,
+				F1CA9F79510D404794A92D1F /* Segoe-UI-Italic.ttf in Resources */,
+				71F51511FA1B4B2E9701CB7F /* Segoe-UI.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
